@@ -1,0 +1,22 @@
+2017-12-13 10:48:08.962 CST [75993] FATAL:  lock file "postmaster.pid" already exists
+2017-12-13 10:48:08.962 CST [75993] HINT:  Is another postmaster (PID 75983) running in data directory "/usr/local/var/postgres"?
+2017-12-13 12:18:19.292 CST [76918] LOG:  listening on IPv6 address "::1", port 5432
+2017-12-13 12:18:19.292 CST [76918] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2017-12-13 12:18:19.293 CST [76918] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2017-12-13 12:18:19.306 CST [76919] LOG:  database system was shut down at 2017-12-13 12:16:41 CST
+2017-12-13 12:18:19.309 CST [76918] LOG:  database system is ready to accept connections
+2017-12-13 12:18:23.417 CST [76929] ERROR:  role "connorobrien" already exists
+2017-12-13 12:18:23.417 CST [76929] STATEMENT:  CREATE ROLE connorobrien SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+2017-12-13 12:18:31.035 CST [76931] FATAL:  role "postgres" does not exist
+2017-12-13 12:18:59.399 CST [76958] FATAL:  role "postgres" does not exist
+2017-12-13 12:20:32.850 CST [76986] FATAL:  role "postgres" does not exist
+2017-12-13 12:22:19.341 CST [76924] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2017-12-13 12:22:19.373 CST [76918] LOG:  could not open file "postmaster.pid": No such file or directory
+2017-12-13 12:22:19.373 CST [76918] LOG:  performing immediate shutdown because data directory lock file is invalid
+2017-12-13 12:22:19.373 CST [76918] LOG:  received immediate shutdown request
+2017-12-13 12:22:19.373 CST [76918] LOG:  could not open file "postmaster.pid": No such file or directory
+2017-12-13 12:22:19.374 CST [76923] WARNING:  terminating connection because of crash of another server process
+2017-12-13 12:22:19.374 CST [76923] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2017-12-13 12:22:19.374 CST [76923] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2017-12-13 12:22:19.374 CST [76924] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2017-12-13 12:22:19.377 CST [76918] LOG:  database system is shut down
